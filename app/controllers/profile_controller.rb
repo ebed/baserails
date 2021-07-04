@@ -8,7 +8,12 @@ class ProfileController < ApplicationController
   end
 
   def index
-    puts current_user
+    
+
+
+    logger.info "current_user"
+    logger.info @current_user
+    logger.info current_user
   end
   def edit
 

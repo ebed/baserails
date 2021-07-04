@@ -45,6 +45,7 @@ services:
       - PSQL_HISTFILE=/app/log/.psql_history
       - RAILS_ENV=${RAILS_ENV:-development}
       - RAILS_LOG_TO_STDOUT=true
+      - DOCKER_LOGS=tru
       - WEB_CONCURRENCY=1
     networks:
       - default
