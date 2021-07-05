@@ -13,6 +13,8 @@ module Speter
     config.logger = Ougai::Logger.new(STDOUT)
     config.logger.formatter = Ougai::Formatters::Readable.new
     # config.eager_load_paths << Rails.root.join('lib')
+    #
+    # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
